@@ -1,0 +1,32 @@
+{
+  "version": "0.1",
+  "name": "RubiX",
+  "description": "A simple rubik's cube game",
+  "launch_path": "./home.html",
+  "icons": {
+    "16": "/img/c1.png",
+    "48": "/img/c1.png",
+    "128": "/img/c1.png"
+  },
+  "developer": {
+    "name": "Namra Maheshwari",
+    "url": "web.iiit.ac.in/~namra.maheshwari/"
+  },
+  "installs_allowed_from": ["*"],
+  "appcache_path": "/cache.manifest",
+  "locales": {
+    "es": {
+      "description": "Su nueva aplicación impresionante Open Web",
+      "developer": {
+        "url": "web.iiit.ac.in/~namra.maheshwari/"
+      }
+    },
+    "it": {
+      "description": "Il vostro nuovo fantastico Open Web App",
+      "developer": {
+        "url": "web.iiit.ac.in/~namra.maheshwari/"
+      }
+    }
+  },
+  "default_locale": "en"
+}

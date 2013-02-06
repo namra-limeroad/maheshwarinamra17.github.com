@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script>
+
+			function openRubixPC()
+			{
+				myWin=window.open("http://maheshwarinamra17.github.com/RubiXPC/home.html",'','width=340,height=480');
+				myWin.focus();
+			}
+		</script>
+		<style>
+			body{
+					background: url("img/browser1.png") center no-repeat;
+					background-repeat:repeat;
+					margin-top:3%;
+			
+			}
+			
+				@-webkit-keyframes red-glow{
+					0%  {-webkit-box-shadow:0 0 10px #ff0000;}
+					50% {-webkit-box-shadow:0 0 30px #ff0000;}
+					100%{-webkit-box-shadow:0 0 10px #ff0000;}
+				}
+			button{
+				display:block; width:180px; height:45px; margin:0 auto 18px;
+				border:1px solid rgba(175, 175, 175, 0.5); border-top-color:rgba(250, 250, 250, 0.7); -webkit-border-radius:8px; -moz-border-radius:8px; -o-border-radius:8px; border-radius:8px;
+				font:bold 16px/42px Verdana, Geneva, sans-serif; color:#fff; text-align:center; text-shadow:0 -1px 0 rgba(0, 0, 0, 0.4);
+				cursor:pointer;
+					}
+			button:focus, button:active{outline:none;}
+			.red{
+					background-color:#de0f0f;
+					background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#fe8989), to(#f62e2e), color-stop(50%, #be0a0a), color-stop(50%, #a40606));
+					background-image:-moz-linear-gradient(top left 270deg, #fe8989, #be0a0a 50%, #a40606 50%, #f62e2e);
+					background-image:-o-linear-gradient(top left 270deg, #fe8989, #be0a0a 50%, #a40606 50%, #f62e2e);
+					background-image:linear-gradient(top left 270deg, #fe8989, #be0a0a 50%, #a40606 50%, #f62e2e);
+				}
+			.red:hover, .red:focus{
+			-webkit-box-shadow:0 0 40px #ff0000;
+			-moz-box-shadow:0 0 40px #ff0000;
+			-o-box-shadow:0 0 40px #ff0000;
+			box-shadow:0 0 40px #ff0000;
+			-webkit-animation:red-glow 1.5s infinite linear;
+				}
+		</style>
+        <title>RubiX Browser</title>
+    </head>
+    <body>
+			<div style="text-align:center">
+				<img src="img/browser2.png"/><br/>
+				<img src="img/browser3.png"/><br/><br/>
+					<button class="red" onclick='openRubixPC()'>Enter Here</button>
+
+			
+			
+			</div>
+           
+    </body>
+</html>
+			
