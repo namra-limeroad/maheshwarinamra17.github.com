@@ -13,6 +13,11 @@
 				myWin.focus();
 			}
 			
+			function closeWin()
+			{
+				myWin.close();
+			}
+			
 		</script>
 		<style>
 			body{
@@ -27,12 +32,21 @@
 					50% {-webkit-box-shadow:0 0 30px #ff0000;}
 					100%{-webkit-box-shadow:0 0 10px #ff0000;}
 				}
+				@-webkit-keyframes green-glow{
+					0%  {-webkit-box-shadow:0 0 10px #00ff00;}
+					50% {-webkit-box-shadow:0 0 30px #00ff00;}
+					100%{-webkit-box-shadow:0 0 10px #00ff00;}
+				}
 			button{
 				display:block; width:180px; height:45px; margin:0 auto 18px;
 				border:1px solid rgba(175, 175, 175, 0.5); border-top-color:rgba(250, 250, 250, 0.7); -webkit-border-radius:8px; -moz-border-radius:8px; -o-border-radius:8px; border-radius:8px;
 				font:bold 16px/42px Verdana, Geneva, sans-serif; color:#fff; text-align:center; text-shadow:0 -1px 0 rgba(0, 0, 0, 0.4);
 				cursor:pointer;
 					}
+			table{
+					display:block; width:400px; height:45px; margin:0 auto 18px;
+					
+				}				
 			button:focus, button:active{outline:none;}
 			.red{
 					background-color:#de0f0f;
@@ -41,6 +55,13 @@
 					background-image:-o-linear-gradient(top left 270deg, #fe8989, #be0a0a 50%, #a40606 50%, #f62e2e);
 					background-image:linear-gradient(top left 270deg, #fe8989, #be0a0a 50%, #a40606 50%, #f62e2e);
 				}
+			.green{
+					background-color:#13850c;
+					background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#41b64b), to(#12a91e), color-stop(50%, #13820a), color-stop(50%, #13820c));
+					background-image:-moz-linear-gradient(top left 270deg, #41b64b, #13820a 50%, #13820c 50%, #12a91e);
+					background-image:-o-linear-gradient(top left 270deg, #41b64b, #13820a 50%, #13820c 50%, #12a91e);
+					background-image:linear-gradient(top left 270deg, #41b64b, #13820a 50%, #13820c 50%, #12a91e);
+				}	
 			.red:hover, .red:focus{
 			-webkit-box-shadow:0 0 40px #ff0000;
 			-moz-box-shadow:0 0 40px #ff0000;
@@ -48,6 +69,13 @@
 			box-shadow:0 0 40px #ff0000;
 			-webkit-animation:red-glow 1.5s infinite linear;
 				}
+			.green:hover, .green:focus{
+			-webkit-box-shadow:0 0 40px #00ff00;
+			-moz-box-shadow:0 0 40px #00ff00;
+			-o-box-shadow:0 0 40px #00ff00;
+			box-shadow:0 0 40px #00ff00;
+			-webkit-animation:green-glow 1.5s infinite linear;
+				}	
 		</style>
         <title>RubiX Browser</title>
     </head>
@@ -55,11 +83,13 @@
 			<div style="text-align:center">
 				<img src="img/browser2.png"/><br/>
 				<img src="img/browser3.png"/><br/><br/>
-					<button class="red" onclick='openRubixPC()'>Enter Here</button>
-
-			
-			
-			</div>
+		
+					<table>
+					<tr><td><button class="green" onclick='openRubixPC()'>Enter Here</button></td>
+					<td style="width:30px;"></td>
+					<td><button class="red" onclick='closeWin()'>Quit</button></td></tr>
+					</table>
+				</div>	
            
     </body>
 </html>
