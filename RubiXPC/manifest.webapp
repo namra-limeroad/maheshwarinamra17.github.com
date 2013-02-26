@@ -4,9 +4,9 @@
   "description": "A simple rubik's cube game",
   "launch_path": "/RubiXPC/browser.html",
   "icons": {
-    "16": "/img/c1_large.png",
-    "48": "/img/c1_large.png",
-    "128": "/img/c1_large.png"
+    "16": "/RubiXPC/img/c1_large.png",
+    "48": "/RubiXPC/img/c1_large.png",
+    "128": "/RubiXPC/img/c1_large.png"
   },
   "developer": {
     "name": "Namra Maheshwari",
