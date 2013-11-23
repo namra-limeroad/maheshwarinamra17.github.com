@@ -1,0 +1,71 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////// Orange Skin CSS Rules Start                                                                        */
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+a, p > a {
+	color: #F0EEEC;
+}
+body {
+	background-color: #F0EEEC;
+}
+.websiteWrapper {
+	border-color: #BEB9B2;
+}
+.mainMenuWrapper {
+	border-color: #BEB9B2;
+}
+.mainMenuWrapper > li.currentPage {
+	background-color: #4baad3;
+}
+.headerOuterWrapper {
+	border-color: #BEB9B2;
+}
+input.errorSearchFormSubmitButton, input.errorSearchFormSubmitButton:hover {
+	background-color: #aba6a0;
+}
+.portfolioOneItemImageWrapper, .portfolioOneFilterableWrapper .portfolioFilterableItemImageWrapper {
+	border-color: #aba6a0;
+}
+.portfolioMenuWrapper .currentPortfolioFilter {
+	color: #aba6a0;
+}
+.portfolioOneExpandButton, .portfolioFilterableExpandButton, .singleProjectExpandButton {
+	background-image: url(../../images/skins/orange/portfolioExpandButtonBg.png);
+}
+.portfolioOneDetailsButton, .portfolioFilterableDetailsButton, .singleProjectDetailsButton {
+	background-image: url(../../images/skins/orange/portfolioDetailsButtonBg.png);
+}
+.smallPostMoreButton {
+	background-image: url(../../images/skins/orange/smallPostReadMoreButtonBg.png);
+}
+input.contactSubmitButton, input.contactSubmitButton:hover {
+	background-color: #4baad3;
+}
+input.commentSubmitButton, input.commentSubmitButton:hover {
+	background-color: #4baad3;
+}
+.accordionButton .accordionButtonIcon {
+	background-image: url(../../images/skins/orange/accordionButtonBg.png);
+}
+.pageNumbersWrapper {
+	border-color: #BEB9B2;
+}
+.footerWrapper {
+	border-color: #BEB9B2;
+}
+@media (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2) {
+.portfolioOneExpandButton, .portfolioFilterableExpandButton, .singleProjectExpandButton {
+	background-image: url(../../images/skins/orange/portfolioExpandButtonBg-x2.png);
+}
+.portfolioOneDetailsButton, .portfolioFilterableDetailsButton, .singleProjectDetailsButton {
+	background-image: url(../../images/skins/orange/portfolioDetailsButtonBg-x2.png);
+}
+.smallPostMoreButton {
+	background-image: url(../../images/skins/orange/smallPostReadMoreButtonBg-x2.png);
+}
+.accordionButton .accordionButtonIcon {
+	background-image: url(../../images/skins/orange/accordionButtonBg-x2.png);
+}
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////// Orange Skin CSS Rules End                                                                          */
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
