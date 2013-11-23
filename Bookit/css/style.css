@@ -373,27 +373,27 @@ tr:hover > td {
 }
 .homePageIconAbout {
 	background-image: url(../images/common/homePageIconMovieBg.png);
-	background-color:#3291c7;
+	background-color:#fc5751;
 }
 .homePageIconPortfolio {
 	background-image: url(../images/common/homePageIconCinemaBg.png);
-	background-color:#3291c7;
+	background-color:#299482;
 }
 .homePageIconContact {
 	background-image: url(../images/common/homePageIconDealBg.png);
-	background-color:#3291c7;	
+	background-color:#9959b9;	
 }
 .homePageIconDribbble {
 	background-image: url(../images/common/homePageIconHistoryBg.png);
-	background-color:#3291c7;
+	background-color:#2b97bd;
 }
 .homePageIconTwitter {
 	background-image: url(../images/common/homePageIconContactBg.png);
-	background-color:#3291c7;
+	background-color:#33c874;
 }
 .homePageIconFacebook {
 	background-image: url(../images/common/homePageIconSettingsBg.png);
-	background-color:#3291c7;
+	background-color:#eecc00;
 }
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*//////////////////// Home Page CSS Rules End                                                                            */
@@ -822,12 +822,12 @@ input.fieldHasError, textarea.fieldHasError {
 	background-color: #fff;
 }
 .currentPageNumber {
-	background-color: #4baad3;
+	background-color: #817f7f;
 	color: #fff;
 	font-weight: bold;
 }
 .currentPageNumber:hover {
-	background-color: #4baad3;
+	background-color: #817f7f;
 	color: #fff;
 }
 .postLinksWrapper {
