@@ -1,0 +1,552 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+<link rel="apple-touch-startup-image" href="images/apple-touch-startup-image-320x460.png" />
+<meta name="author" content="FamousThemes" />
+<meta name="description" content="GoMobile - A next generation web app theme" />
+<meta name="keywords" content="mobile web app, mobile template, mobile design, mobile app design, mobile app theme, mobile wordpress theme, my mobile app" />
+<title>GoMobile - A next generation web app theme</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+<link type="text/css" rel="stylesheet" href="colors/white/white.css"/>
+<link type="text/css" rel="stylesheet" href="css/idangerous.swiper.css"/>
+<link type="text/css" rel="stylesheet" href="css/swipebox.css"/>
+<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'/>
+</head>
+<body>
+  <div id="header">
+      <div class="gohome radius20"><a href="#"><img src="images/icons_dark/home.png" alt="" title="" /></a></div>
+      <div class="gomenu radius20"><a href="#" onclick="swiperParent.swipeTo(10);"><img src="images/icons_dark/contact.png" alt="" title="" /></a></div>
+  </div>
+  <div class="swiper-container swiper-parent">
+    <div class="swiper-wrapper">
+    
+      <!--Menu page-->
+      <div class="swiper-slide sliderbg_menu">
+          <div class="swiper-container swiper-nested">
+                   <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                                  <div class="slide-inner">
+                                        <div class="logo"><a href="#"><img src="colors/white/images/logo.png" alt="" title="" border="0" /></a></div>
+                                        <div class="menu">
+                                        <ul>
+                                        <li><a href="#" onclick="swiperParent.swipeTo(1);"><img src="images/icons_dark/about.png" alt="" title="" /><span>Ask Question</span></a></li>
+                                       <li><a href="#" onclick="swiperParent.swipeTo(5);"><img src="images/icons_dark/docs.png" alt="" title="" /><span>My Answers</span></a></li>
+                                        <li><a href="#" onclick="swiperParent.swipeTo(7);"><img src="images/icons_dark/videos.png" alt="" title="" /><span>Other Questions</span></a></li>
+                                        <li><a href="#" onclick="swiperParent.swipeTo(9);"><img src="images/icons_dark/contact.png" alt="" title="" /><span>Inbox</span></a></li>
+                                        <li><a href="#" onclick="swiperParent.swipeTo(8);"><img src="images/icons_dark/clients.png" alt="" title="" /><span>Profile</span></a></li>
+                                        <li><a href="#" ><img src="images/icons_dark/twitter.png" alt="" title="" /><span>Instructions</span></a></li>
+                                        <li><a href="#" onclick="#;"><img src="images/icons_dark/tools.png" alt="" title="" /><span>Settings</span></a></li>
+                                        <li><a href="#" onclick="swiperParent.swipeTo(2);"><img src="images/icons_dark/photos.png" alt="" title="" /><span>Local Help</span></a></li>
+										<li><a href="#" onclick="swiperParent.swipeTo(10);"><img src="images/icons_dark/blog.png" alt="" title="" /><span>Contact Us</span></a></li>
+
+                                        </ul>
+                                        <div class="clearfix"></div>
+                                        </div>
+                                 </div>
+                         </div>
+                   </div>
+                  <div class="swiper-scrollbar"></div>
+          </div> 
+      </div>
+      
+      <!--Page 1 content-->
+      <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nested1">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="pages_container">
+                                        <h2 class="page_title">Ask Question</h2>
+                                        <div class="image_single radius4"><a href="#"><img src="images/add_image.jpg" alt="" title="" border="0" /></a></div>
+                                        <a href="#"><div class="image_caption green green_borderbottom radius4"><img src="images/icons_dark/voice.png"/></div></a>
+                                        <div class="form">
+                                            <form id="contact-us" action="#" method="post">
+                                            <label>Title:</label>
+                                            <input type="text" name="contactName" id="contactName" value="" class="form_input radius4 txt requiredField" />
+											<label>Category</label>
+											<select class="form_input radius4 txt requiredField">
+												<option value="volvo">Select a category</option>
+												<option value="saab">Agricultural & Cropping </option>
+												<option value="mercedes">Education</option>
+												<option value="audi">Women and Child Health Care Advisory</option>
+												<option value="audi">Livestock Advisory</option>
+											</select>
+                                            <label>Description:</label>
+                                            <textarea name="comments" id="commentsText" class="form_textarea radius4 txtarea requiredField" rows="" cols=""></textarea>
+                                            <input type="hidden" name="submitted" id="submitted" value="true" />
+                                            <input name="submit" type="submit" class="form_submit radius4 green green_borderbottom" value="Send" />
+                                            </form>
+                                        </div>
+                                        
+                                        <div class="clearfix"></div>
+      									<div class="scrolltop radius20"><a href="#" class="scrolltop1"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbar1"></div>
+     </div>
+     </div>
+      
+      <!--Page 2 content-->
+      <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nested2">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="pages_container">
+                                        <h2 class="page_title">Local Help</h2>
+                                        <blockquote>Basic amenities nearby to your location</blockquote>
+                                        
+                                        <h3>Locations</h3>
+                                        <div class="service_box">
+                                          <div class="services_icon"><img src="images/icons/services.png" alt="" title="" /></div>
+                                          <div class="service_content">
+                                          <h4>Hospitals</h4>
+                                              <p>Lorem ipsum dolor sit <a href="#">amet consectetur</a> adipisicing elit, <strong>sed do eiusmod</strong> tempor</p>
+                                          </div>
+                                        </div>
+                                        <div class="service_box">
+                                          <div class="services_icon"><img src="images/icons/layout.png" alt="" title="" /></div>
+                                          <div class="service_content">
+                                          <h4>Schools</h4>
+                                          <p>Cras <strong>vestibulum</strong> <a href="#">justo eget lorem</a> semper ac facilisis nulla porta</p>
+                                          </div>
+                                        </div>  
+                                        <div class="service_box">
+                                          <div class="services_icon"><img src="images/icons/pencil.png" alt="" title="" /></div>
+                                          <div class="service_content">
+                                          <h4>Police Stations</h4>
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                          </div>
+                                        </div>
+                                        <div class="service_box">
+                                          <div class="services_icon"><img src="images/icons/code.png" alt="" title="" /></div>
+                                          <div class="service_content">
+                                          <h4>Muncipal Corporation</h4>
+                                          <p>Lorem ipsum dolor sit amet, <a href="#"><strong>consectetur adipisicing elit</strong></a>, sed do eiusmod tempor</p>
+                                          </div>
+                                        </div>                                     
+                                       
+                                        
+                                        
+                                        
+                                        <div class="clearfix"></div>
+      <div class="scrolltop radius20"><a href="#" class="scrolltop2"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbar2"></div>
+     </div>
+     </div>
+     
+      <!--Page 3 content-->
+      <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nested3">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="pages_container blogheight">
+                                        <a class="backtoblog radius8" onclick="swiperParent.swipeTo(7);">Back to Questions</a>
+                              <h2 class="page_title">Title</h2>
+                            <div class="image_single radius4"><img src="images/page_photo.jpg" alt="" title="" border="0" /></div>
+                            <h3>Question</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam velit sapien, eleifend in tempus volutpat, posuere ullamcorper augue. Proin dignissim risus ut quam aliquam dignissim. In erat elit, bibendum vitae commodo vitae, bibendum non justo.<br /><br /> Nunc erat eros, cursus et commodo vitae, pulvinar ac libero. Nullam et scelerisque erat. Cras vestibulum justo eget lorem semper ac facilisis nulla porta.</p>
+                              <a href="#"><div class="image_caption green green_borderbottom radius4">Voice Description</div></a>
+              
+                                         <div class="form">
+                                            <form id="contact-us" action="#" method="post">
+                                    
+                                            <label>Answer</label>
+                                            <textarea name="comments" id="commentsText" class="form_textarea radius4 txtarea requiredField" rows="" cols=""></textarea>
+                                            <input type="hidden" name="submitted" id="submitted" value="true" />
+                                            </form>
+                                            </div>      
+                                                
+                                            
+ 										<div class="scrolltop radius20"><a href="#" class="scrolltop3"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbar3"></div>
+     </div>
+     </div>
+     
+      <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nestedsingle">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                              <div class="pages_container">
+                              <a class="backtoblog radius8" onclick="swiperParent.swipeTo(5);">Back to Answers</a>
+                              <h2 class="page_title">Title</h2>
+                            <div class="image_single radius4"><img src="images/page_photo.jpg" alt="" title="" border="0" /></div>
+                            <h3>Answers</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam velit sapien, eleifend in tempus volutpat, posuere ullamcorper augue. Proin dignissim risus ut quam aliquam dignissim. In erat elit, bibendum vitae commodo vitae, bibendum non justo.<br /><br /> Nunc erat eros, cursus et commodo vitae, pulvinar ac libero. Nullam et scelerisque erat. Cras vestibulum justo eget lorem semper ac facilisis nulla porta.</p>
+                                         <a href="#" class="button_12 green green_borderbottom radius4">Satisfied</a>  <a href="#" class="button_12 blue blue_borderbottom radius4">Not Satisfied</a>
+
+						<h3>Comments</h3>
+                                <div class="comment_row">
+                                	<div class="comm_avatar"><img src="images/avatar.jpg" alt="" title="" border="0" /></div>
+                                    <div class="comm_content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam velit sapien, eleifend in by <a href="#">comment author</a></p></div>
+                                </div>
+                                <div class="comment_row">
+                                	<div class="comm_avatar"><img src="images/avatar.jpg" alt="" title="" border="0" /></div>
+                                    <div class="comm_content"><p>Nullam et scelerisque erat. Cras vestibulum justo eget lorem semper ac facilisis nulla porta by <a href="#">comment author</a></p></div>
+                                </div>
+                            <h3>Leave a comment</h3>
+                                <div class="form">
+                                <form action="#">
+                                <label>Name:</label>
+                                <input type="text" class="form_input radius4" />
+                                <label>Email:</label>
+                                <input type="text" class="form_input radius4" />
+                                <label>Comment:</label>
+                                <textarea class="form_textarea radius4" rows="" cols=""></textarea>
+                                
+                                <input type="submit" class="form_submit radius4 green green_borderbottom" value="Submit" />
+                                </form>
+                                </div>
+                              <div class="scrolltop radius20"><a href="#" class="scrolltopsingle"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                              </div>
+                              <!--End of page container-->
+                               </div>
+                         </div>
+                   </div>
+                  <div class="swiper-scrollbarsingle"></div>
+          </div>                            
+      </div>
+     <!--Page 4 content-->
+      <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nested4">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="pages_container">
+                                        <h2 class="page_title">Answers</h2>
+                                        <div class="portfolio_item radius8">
+                                             <div class="portfolio_image"><a rel="gallery-1" href="images/portfolio_thumb.jpg" class="swipebox" title="Webdesign work"><img src="images/portfolio_thumb.jpg" alt="" title="" border="0" /></a></div>
+                                                 <div class="portfolio_details">
+                                                 <h4>Webdesign work</h4>
+                                                 <p>Nullam et scelerisque erat. Cras vestibulum justo...</p>
+                                                 <a href="#" onclick="swiperParent.swipeTo(4);" class="view_details" >view details</a>
+
+                                                 </div>
+                                        </div>
+                                        <div class="portfolio_item radius8">
+                                             <div class="portfolio_image"><a rel="gallery-1" href="images/portfolio_thumb2.jpg" class="swipebox" title="Webdesign work"><img src="images/portfolio_thumb2.jpg" alt="" title="" border="0" /></a></div>
+                                                 <div class="portfolio_details">
+                                                 <h4>Mobile development</h4>
+                                                 <p>Cras vestibulum justo eget lorem semper ac facilisis...</p>
+                                                 <a rel="gallery-2" href="#" onclick="swiperParent.swipeTo(4);" class="swipebox view_details" title="Webdesign work">view details</a>
+                                                 </div>
+                                        </div>
+                                        <div class="portfolio_item radius8">
+                                             <div class="portfolio_image"><a rel="gallery-1" href="images/portfolio_thumb3.jpg" class="swipebox" title="Webdesign work"><img src="images/portfolio_thumb3.jpg" alt="" title="" border="0" /></a></div>
+                                                 <div class="portfolio_details">
+                                                 <h4>Applications</h4>
+                                                 <p>Sed ut felis non arcu pulvinar molestie....</p>
+                                                 <a rel="gallery-2" href="#" onclick="swiperParent.swipeTo(4);" class="swipebox view_details" title="Webdesign work">view details</a>
+                                                 </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        
+                                        
+                                           
+                                        <div class="clearfix"></div>
+      									<div class="scrolltop radius20"><a href="#" class="scrolltop4"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbar4"></div>
+     </div>
+     </div>
+     
+      <!--Page 5 content-->
+      <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nested5">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="pages_container">
+                                        <h2 class="page_title">Photo Gallery 1/3</h2>
+                                            <ul class="photo_gallery_13">
+                                            <li><a rel="gallery-3" href="images/photos/photo1.jpg" title="Photo title" class="swipebox"><img src="images/photos/photo1.jpg" alt="image"/></a></li>
+                                            <li><a rel="gallery-3" href="images/photos/photo2.jpg" title="Photo title" class="swipebox"><img src="images/photos/photo2.jpg" alt="image"/></a></li>
+                                            <li><a rel="gallery-3" href="images/photos/photo3.jpg" title="Photo title" class="swipebox"><img src="images/photos/photo3.jpg" alt="image"/></a></li>
+                                            <li><a rel="gallery-3" href="images/photos/photo4.jpg" title="Photo title" class="swipebox"><img src="images/photos/photo4.jpg" alt="image"/></a></li>
+                                            <li><a rel="gallery-3" href="images/photos/photo5.jpg" title="Photo title" class="swipebox"><img src="images/photos/photo5.jpg" alt="image"/></a></li>
+                                            <li><a rel="gallery-3" href="images/photos/photo6.jpg" title="Photo title" class="swipebox"><img src="images/photos/photo6.jpg" alt="image"/></a></li>
+                                            </ul>
+                                        <h2>Photo Gallery 1/2</h2>
+                                            <ul class="photo_gallery_12">    
+                                            <li><a rel="gallery-4" href="images/photos/photo7.jpg" title="Photo title" class="swipebox"><img src="images/photos/photo7.jpg" alt="image"/></a></li>
+                                            <li><a rel="gallery-4" href="images/photos/photo8.jpg" title="Photo title" class="swipebox"><img src="images/photos/photo8.jpg" alt="image"/></a></li>
+                                            <li><a rel="gallery-4" href="images/photos/photo9.jpg" title="Photo title" class="swipebox"><img src="images/photos/photo9.jpg" alt="image"/></a></li>
+                                            <li><a rel="gallery-4" href="images/photos/photo10.jpg" title="Photo title" class="swipebox"><img src="images/photos/photo10.jpg" alt="image"/></a></li>
+                                            
+                                            </ul>
+                                        <h2>Photo Gallery 1/1</h2>    
+                                            <ul class="photo_gallery_11">
+                                            <li><a rel="gallery-5" href="images/photos/photo11.jpg" title="Photo title" class="swipebox"><img src="images/photos/photo11.jpg" alt="image"/></a></li>
+                                            </ul>
+                                        <h2 class="page_title">Round corners 1/3</h2>
+                                            <ul class="photo_gallery_13_round">
+                                            <li><a rel="gallery-6" href="images/photos/photo1.jpg" title="Photo title" class="swipebox"><img src="images/photos/photo1.jpg" alt="image"/></a></li>
+                                            <li><a rel="gallery-6" href="images/photos/photo2.jpg" title="Photo title" class="swipebox"><img src="images/photos/photo2.jpg" alt="image"/></a></li>
+                                            <li><a rel="gallery-6" href="images/photos/photo3.jpg" title="Photo title" class="swipebox"><img src="images/photos/photo3.jpg" alt="image"/></a></li>
+                                            <li><a rel="gallery-6" href="images/photos/photo4.jpg" title="Photo title" class="swipebox"><img src="images/photos/photo4.jpg" alt="image"/></a></li>
+                                            <li><a rel="gallery-6" href="images/photos/photo5.jpg" title="Photo title" class="swipebox"><img src="images/photos/photo5.jpg" alt="image"/></a></li>
+                                            <li><a rel="gallery-6" href="images/photos/photo6.jpg" title="Photo title" class="swipebox"><img src="images/photos/photo6.jpg" alt="image"/></a></li>
+                                            </ul>
+                                         <div class="clearfix"></div> 
+     									 <div class="scrolltop radius20"><a href="#" class="scrolltop5"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbar5"></div>
+     </div>
+     </div>
+      <!--Page 6 content-->
+       <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nested4">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="pages_container">
+                                        <h2 class="page_title">Other Questions</h2>
+                                        <div class="toogle_wrap radius8">
+                                            <div class="trigger"><a href="#">Categories</a></div>
+                                            <div class="toggle_container">
+                                            <ul class="listing_detailed">
+
+                                            <li><a href="#">Agricultural & Cropping</a></li>
+                                            <li><a href="#">Education</a></li>
+                                            <li><a href="#">Women and Child Health Care Advisory</a></li>
+                                            <li><a href="#">Livestock Advisory</a></li>
+
+                                            </ul>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="clearfix"></div>
+                                        
+                                        <h3>Related Questions</h3>
+                                        <div class="portfolio_item radius8">
+                                             <div class="portfolio_image_round"><a rel="gallery-1" href="images/portfolio_thumb.jpg" class="swipebox" title="Webdesign work"><img src="images/portfolio_thumb.jpg" alt="" title="" border="0" /></a></div>
+                                                 <div class="portfolio_details">
+                                                 <h4>Webdesign work</h4>
+                                                 <p>Nullam et scelerisque erat. Cras vestibulum justo...</p>
+                                                 <a href="#" onclick="swiperParent.swipeTo(3);" class="view_details">Answer question</a>
+                                                 </div>
+                                        </div>
+                                         <div class="portfolio_item radius8">
+                                             <div class="portfolio_image_round"><a rel="gallery-1" href="images/portfolio_thumb2.jpg" class="swipebox" title="Webdesign work"><img src="images/portfolio_thumb2.jpg" alt="" title="" border="0" /></a></div>
+                                                 <div class="portfolio_details">
+                                                 <h4>Mobile development</h4>
+                                                 <p>Cras vestibulum justo eget lorem semper ac facilisis...</p>
+                                                 <a href="#" onclick="swiperParent.swipeTo(3);" class="view_details">Answer question</a>
+                                                 </div>
+                                        </div>
+                                        <div class="portfolio_item radius8">
+                                             <div class="portfolio_image_round"><a rel="gallery-1" href="images/portfolio_thumb3.jpg" class="swipebox" title="Webdesign work"><img src="images/portfolio_thumb3.jpg" alt="" title="" border="0" /></a></div>
+                                                 <div class="portfolio_details">
+                                                 <h4>Applications</h4>
+                                                 <p>Sed ut felis non arcu pulvinar molestie....</p>
+                                                 <a href="#" onclick="swiperParent.swipeTo(3);" class="view_details">Answer question</a>
+                                                 </div>
+                                        </div>
+                                           
+                                        <div class="clearfix"></div>
+      									<div class="scrolltop radius20"><a href="#" class="scrolltop4"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbar4"></div>
+     </div>
+     </div>
+      <!--Page 7 content-->
+      <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nested7">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="pages_container">
+                                        <h2 class="page_title">Your Name </h2>
+                                       <div class="client_row"> 
+                                        <div class="service_box">
+                                          <div class="services_icon"><img src="images/icons/clients.png" alt="" title="" /></div>
+                                          <div class="service_content">
+                                          <h4>Address</h4>
+                                          <p>Lorem ipsum dolor sit amet, <a href="#"><strong>consectetur adipisicing elit</strong></a>, sed do eiusmod tempor</p>
+										  <h4>UID Number</h4>
+                                          <p>Lorem ipsum dolor sit amet, <a href="#"><strong>consectetur adipisicing elit</strong></a>, sed do eiusmod tempor</p>
+                                          </div>
+                                        </div> 
+                                        <h3>Qualified in Category</h3>
+										
+                                        <ul class="listing">
+                                        <li>Agricultural & Cropping </li>
+                                        <li>Education</li>
+                                        <li>Women and Child Health Care Advisory</li>
+                                        </ul> 
+                                      </div>
+                                     
+                                      <div class="form">
+                                            <form id="contact-us" action="#" method="post">
+                                            <label>Name:</label>
+                                            <input type="text" name="contactName" id="contactName" value="" class="form_input radius4 txt requiredField" />
+											<label>UID Number</label>
+                                            <input type="text" name="contactName" id="contactName" value="" class="form_input radius4 txt requiredField" />
+                                            <label>Address</label>
+                                            <textarea name="comments" id="commentsText" class="form_textarea radius4 txtarea requiredField" rows="" cols=""></textarea>
+                                            <input type="hidden" name="submitted" id="submitted" value="true" />
+                                            </form>
+                                            </div>
+                                           <a href="#" class="button_12 green green_borderbottom radius4">Save</a>  <a href="#" class="button_12 blue blue_borderbottom radius4">Logout</a> 
+
+                                        <div class="clearfix"></div>
+    					<div class="scrolltop radius20"><a href="#" class="scrolltop7"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbar7"></div>
+     </div>
+     </div>
+      <!--Page 8 content-->
+      <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nested8">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="pages_container">
+                                        <h2>Inbox</h2>
+                                        
+                                        <ul id="tabsmenu" class="tabsmenu">
+                                            <li class="active"><a href="#tab1">Inbox</a></li>
+                                            <li><a href="#tab2">Sent</a></li>
+                                            <li><a href="#tab3">Notifications</a></li>
+                                        </ul>
+                                        <div id="tab1" class="tabcontent">
+                                            <h4>Simple text title</h4>
+                                            <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                            </p>
+                                        </div>
+                                        <div id="tab2" class="tabcontent">
+                                            <h4>Listing title</h4>
+                                            <ul class="listing">
+                                            <li>Consectetur adipisicing elit sed</li>
+                                            <li>Sed do eiusmod tempor incididunt</li>
+                                            <li>Ut enim ad minim veniam</li>
+                                            </ul>
+                                        </div>
+                                
+                                        <div id="tab3" class="tabcontent">
+                                            <h4>Quote title</h4>
+                                            <blockquote>Design is the fundamental soul of a human-made creation that ends up expressing itself in successive outer layers of the product or service. <span class="quote_author">-Steve Jobs</span></blockquote>
+                                        </div>       
+										<div class="scrolltop radius20"><a href="#" class="scrolltop8"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbar8"></div>
+     </div>
+     </div>
+      <!--Page 9 content-->
+      <div class="swiper-slide sliderbg">
+      <div class="swiper-container swiper-nested9">
+               <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                              <div class="slide-inner">
+                                        <div class="pages_container">
+                                        
+                                        <h2 class="page_title">Contact Us</h2>
+                                            <div class="form">
+                                            <form id="contact-us" action="#" method="post">
+                                            <label>Name:</label>
+                                            <input type="text" name="contactName" id="contactName" value="" class="form_input radius4 txt requiredField" />
+                                        
+                                            <label>Message:</label>
+                                            <textarea name="comments" id="commentsText" class="form_textarea radius4 txtarea requiredField" rows="" cols=""></textarea>
+                                            <input type="hidden" name="submitted" id="submitted" value="true" />
+                                            <input name="submit" type="submit" class="form_submit radius4 green green_borderbottom" value="Send" />
+                                            </form>
+                                            </div>
+
+                                            
+                                       <h2>Let's socialize</h2>     
+                                            <ul class="social">
+                                            <li class="social_facebook"><a href="#"><img src="images/icons/social/facebook.png" alt="" title="" border="0" /></a></li>
+                                            <li class="social_twitter"><a href="#"><img src="images/icons/social/twitter.png" alt="" title="" border="0" /></a></li>
+                                            <li class="social_google"><a href="#"><img src="images/icons/social/google.png" alt="" title="" border="0" /></a></li>
+                                            </ul>
+                                        <h2>Give Us a call</h2>    
+                                        <a href="tel:123 456 789" class="call_button radius8">Click To Call Now!</a>
+                                        <a href="http://maps.google.com/maps?q=houston+usa&amp;hl=ro&amp;sll=37.0625,-95.677068&amp;sspn=53.961216,114.169922&amp;hnear=Houston,+Harris,+Texas&amp;t=m&amp;z=5" class="map_button radius8">View our location</a>  
+
+                                        <div class="clearfix"></div>
+                                        <div class="scrolltop radius20"><a href="#" class="scrolltop9"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>    
+                                        </div>
+                                        <!--End of page container-->
+                              </div>
+                    </div>
+              </div>
+              <div class="swiper-scrollbar9"></div>
+     </div>
+     </div>
+       
+     <!--End of pages--> 
+
+    </div>
+    <div class="pagination"></div>
+  </div>
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.swipebox.js"></script>
+<script type="text/javascript" src="js/idangerous.swiper-2.1.min.js"></script>
+<script type="text/javascript" src="js/idangerous.swiper.scrollbar-2.1.js"></script>
+<script type="text/javascript" src="js/jquery.tabify.js"></script>
+<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="js/code.js"></script>
+<script type="text/javascript" src="js/load.js"></script>
+<!--Twitter Feed-->
+<script type="text/javascript" src="js/twitter/jquery.tweet.js" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+var $ = jQuery.noConflict();  
+jQuery(function($){
+$(".tweet").tweet({
+  modpath: 'js/twitter/',
+  join_text: "auto",
+  username: "famousthemes",
+  count: 5,
+  auto_join_text_default: "we said,",
+  auto_join_text_ed: "we",
+  auto_join_text_ing: "we were",
+  auto_join_text_reply: "we replied",
+  auto_join_text_url: "we were checking out",
+  loading_text: "loading tweets..."
+});
+});
+</script>
+</body>
+</html>
