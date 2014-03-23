@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Energia</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Incude bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+		<!-- Custom icons -->
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+		<!-- Custom fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css' />
+		<!-- Main stylesheet -->
+		<link href="css/kato.css" rel="stylesheet" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+
+	<div id="wrapper">
+	
+		<!-- Sidebar -->
+		<aside id="sidebar-wrapper">
+			
+			<!-- Icons Sidebar -->
+			<ul class="sidebar-icon">
+				<li class="sidebar-header"><img src="img/logo.png" alt="Logo" /></li>
+				<!--<li><a href="index.html"><i class="icon-dashboard icon-large"></i></a></li>
+				<li><a href="#tabelements" data-toggle="tab"><i class="icon-th-large icon-large"></i></a></li>
+				<li><a href="#tabcomponents" data-toggle="tab"><i class="icon-compass icon-large"></i></a></li>
+				<li><a href="#tabforms" data-toggle="tab"><i class="icon-book icon-large"></i></a></li>-->
+			</ul>
+			<!-- /Icons Sidebar -->
+			
+			<!-- Tabs Sidebar -->
+			<div class="tab-content">
+
+				<ul class="sidebar-group tab-pane active" id="tabelements">
+					<li class="navigation-header">Energia</li>
+					<li><a href="index.html">Dashboard</a></li>
+					<li><a href="icons.html">Messages</a></li>
+					<li><a href="charts.html">Savings</a></li>
+					<li><a href="forms.html">Settings</a></li>
+				</ul>
+
+			<!--	<ul class="sidebar-group tab-pane" id="tabcomponents">
+					<li class="navigation-header">COMPONENTS</li>
+					<li><a href="calendar.html">Calendar</a></li>
+					<li><a href="tables.html">Tables</a></li>
+					<li><a href="charts.html">Charts</a></li>
+					<li><a href="more.html">More</a></li>
+				</ul>
+
+				<ul class="sidebar-group tab-pane" id="tabforms">
+					<li class="navigation-header">FORMS</li>
+					<li><a href="forms.html">Basic elements</a></li>
+				</ul>
+			-->
+
+			</div>
+			<!-- /Tabs Sidebar -->
+
+		</aside>
+		<!-- /Sidebar -->
+		
+		<!-- Content area -->
+		<div id="content-wrapper">
+			
+			<!-- Site header -->
+			<header class="main-header">
+				
+				<!-- Page title -->
+				<h3>
+					<a id="show-menu" href="#" class="btn btn-primary"><i class="icon-reorder"></i></a>
+					SAVINGS
+				</h3>
+				
+				<!-- Profile dropdown -->
+				<nav class="user-profile">
+					<a href="#" class="user-dropdown" data-toggle="dropdown">
+						<img src="img/avatar.jpg" alt="avatar" />
+						<span>Adam Tate</span>
+						<i class="icon-caret-down"></i>
+					</a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Profile</a></li>
+						<li><a href="#">Messages</a></li>
+						<li><a href="#">Tasks</a></li>
+						<li><a href="error.html">Show error</a></li>
+						<li><a href="login.html">Logout</a></li>
+					</ul>
+				</nav>
+
+			</header>
+			<!-- /Site header -->
+			
+			<!-- Main Content -->
+			<section class="main-content padding">
+				
+				
+
+				<div class="row">
+					<div class="col-lg-6">
+
+						<div class="module">
+							<div class="module-header"><h4>STATISTICS</h4></div>
+							<div class="module-content">
+								<h4 class="module-subtitle"><span>Optimization Comparisons</span></h4>
+
+								<div id="chart2" class="chart"></div>
+
+							</div>
+						</div>
+
+					</div>
+					
+					<!-- Full width table -->
+					<div class="col-lg-6">
+						
+						<div class="module">
+							<div class="module-header"><h4>STATISTICS</h4></div>
+							<div class="module-content">
+								<h4 class="module-subtitle"><span>Optimization Comparisons</span></h4>
+
+								<div id="chart3" class="chart"></div>
+
+							</div>
+						</div>
+
+
+
+				</div>
+
+					<!-- Chart 2 -->
+					<div class="col-lg-6">
+						<div class="module">
+							<div class="module-header"><h4>BAR CHART</h4></div>
+							<div class="module-content demo-buttons">
+								<div id="bar-chart"></div>
+							</div>
+						</div>
+					</div>
+					<!-- /Chart 2 -->
+					<!-- Progress bars -->
+					<div class="col-lg-6">
+						<div class="module module-blue">
+							<div class="module-header"><h4>PROGRESS BARS</h4></div>
+							<div class="module-content">
+								
+								<p>Default progress bar</p>
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
+								    <span class="sr-only">10% Complete (success)</span>
+								  </div>
+								</div>
+
+								<p>Success progress bar</p>
+								<div class="progress">
+								  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+								    <span class="sr-only">40% Complete (success)</span>
+								  </div>
+								</div>
+
+								<p>Information progress bar</p>
+								<div class="progress">
+								  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+								    <span class="sr-only">20% Complete</span>
+								  </div>
+								</div>
+
+								<p>Warning progress bar</p>
+								<div class="progress">
+								  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+								    <span class="sr-only">60% Complete (warning)</span>
+								  </div>
+								</div>
+								
+								<p>Danger progress bar</p>
+								<div class="progress">
+								  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+								    <span class="sr-only">80% Complete</span>
+								  </div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- /Progress bars -->
+					
+				</div>
+
+			</section>
+			<!-- /Main Content -->
+
+		</div>
+		<!-- /Content area -->
+
+	</div>
+	
+	<!-- jQuery Framework -->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<!-- Raphael Framework -->
+	<script src="js/raphael.min.js"></script>
+	<!-- Morris.js Graphs -->
+	<script src="js/morris.min.js"></script>
+	<!-- Small Graphs -->
+	<script src="js/sparklines.min.js"></script>
+	<!-- Knobs -->
+	<script src="js/knob.js"></script>
+	<!-- Bootstrap Javascript -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Full calendar -->
+	<script src="js/fullcalendar.min.js"></script>
+	<!-- Kato Javascript -->
+	<script src="js/theme.js"></script>
+
+	<script>
+
+		new Morris.Bar({
+			element: 'bar-chart',
+			data: [
+				{ year: '2001', x: 120 },
+				{ year: '2002', x: 88 },
+				{ year: '2003', x: 132 },
+				{ year: '2004', x: 120 },
+				{ year: '2005', x: 55 },
+				{ year: '2006', x: 122 },
+				{ year: '2007', x: 53 },
+				{ year: '2008', x: 183 },
+				{ year: '2009', x: 100 },
+				{ year: '2010', x: 46 },
+				{ year: '2011', x: 124 },
+				{ year: '2012', x: 44 },
+				{ year: '2013', x: 46 },
+				{ year: '2014', x: 123 },
+				{ year: '2015', x: 53 },
+				{ year: '2016', x: 34 },
+				{ year: '2017', x: 120 },
+				{ year: '2018', x: 88 },
+				{ year: '2019', x: 132 },
+				{ year: '2020', x: 120 },
+				{ year: '2021', x: 55 },
+				{ year: '2022', x: 122 }
+			],
+			xkey: 'year',
+			ykeys: ['x'],
+			labels: ['Visits'],
+			barColors: ['#e68a72']
+		});
+
+		new Morris.Line({
+			element: 'line-chart',
+			data: [
+				{ year: '2001', x: 120 },
+				{ year: '2002', x: 88 },
+				{ year: '2003', x: 132 },
+				{ year: '2004', x: 120 },
+				{ year: '2005', x: 55 },
+				{ year: '2006', x: 122 },
+				{ year: '2007', x: 53 },
+				{ year: '2008', x: 183 },
+				{ year: '2009', x: 100 },
+				{ year: '2010', x: 46 },
+				{ year: '2011', x: 124 },
+				{ year: '2012', x: 44 },
+				{ year: '2013', x: 46 },
+				{ year: '2014', x: 123 },
+				{ year: '2015', x: 53 },
+				{ year: '2016', x: 34 },
+				{ year: '2017', x: 120 },
+				{ year: '2018', x: 88 },
+				{ year: '2019', x: 132 },
+				{ year: '2020', x: 120 },
+				{ year: '2021', x: 55 },
+				{ year: '2022', x: 122 }
+			],
+			xkey: 'year',
+			smooth: false,
+			ykeys: ['x'],
+			labels: ['Visits'],
+			lineColors: ['#d54a51'],
+			pointStrokeColors: ['#767197'],
+			pointFillColors: ['#ffffff'],
+			fillOpacity: 0
+		});
+
+
+		new Morris.Donut({
+			element: 'donut-chart',
+			data: [
+				{ label: '2001', value: 120 },
+				{ label: '2002', value: 88 },
+				{ label: '2003', value: 132 },
+				{ label: '2004', value: 120 },
+				{ label: '2005', value: 55 },
+				{ label: '2006', value: 122 },
+				{ label: '2007', value: 53 },
+				{ label: '2008', value: 183 }
+			],
+			colors: ['#6eb8d3','#6dba89','#e68a72','#d54a51','#ffd36d','#ec87c1','#a77a94','#247882']
+		});
+	</script>
+</body>
+</html>

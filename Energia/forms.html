@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Energia</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Incude bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+		<!-- Custom icons -->
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+		<!-- Custom fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css' />
+		<!-- Main stylesheet -->
+		<link href="css/kato.css" rel="stylesheet" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+
+	<div id="wrapper">
+	
+		<!-- Sidebar -->
+		<aside id="sidebar-wrapper">
+			
+			<!-- Icons Sidebar -->
+			<ul class="sidebar-icon">
+				<li class="sidebar-header"><img src="img/logo.png" alt="Logo" /></li>
+				<!--<li><a href="index.html"><i class="icon-dashboard icon-large"></i></a></li>
+				<li><a href="#tabelements" data-toggle="tab"><i class="icon-th-large icon-large"></i></a></li>
+				<li><a href="#tabcomponents" data-toggle="tab"><i class="icon-compass icon-large"></i></a></li>
+				<li><a href="#tabforms" data-toggle="tab"><i class="icon-book icon-large"></i></a></li>-->
+			</ul>
+			<!-- /Icons Sidebar -->
+			
+			<!-- Tabs Sidebar -->
+			<div class="tab-content">
+
+				<ul class="sidebar-group tab-pane active" id="tabelements">
+					<li class="navigation-header">Energia</li>
+					<li><a href="index.html">Dashboard</a></li>
+					<li><a href="icons.html">Messages</a></li>
+					<li><a href="charts.html">Savings</a></li>
+					<li><a href="forms.html">Settings</a></li>
+				</ul>
+
+			<!--	<ul class="sidebar-group tab-pane" id="tabcomponents">
+					<li class="navigation-header">COMPONENTS</li>
+					<li><a href="calendar.html">Calendar</a></li>
+					<li><a href="tables.html">Tables</a></li>
+					<li><a href="charts.html">Charts</a></li>
+					<li><a href="more.html">More</a></li>
+				</ul>
+
+				<ul class="sidebar-group tab-pane" id="tabforms">
+					<li class="navigation-header">FORMS</li>
+					<li><a href="forms.html">Basic elements</a></li>
+				</ul>
+			-->
+
+			</div>
+			<!-- /Tabs Sidebar -->
+
+		</aside>
+		<!-- /Sidebar -->
+		
+		<!-- Content area -->
+		<div id="content-wrapper">
+			
+			<!-- Site header -->
+			<header class="main-header">
+				
+				<!-- Page title -->
+				<h3>
+					<a id="show-menu" href="#" class="btn btn-primary"><i class="icon-reorder"></i></a>
+					SETTINGS
+				</h3>
+				
+				<!-- Profile dropdown -->
+				<nav class="user-profile">
+					<a href="#" class="user-dropdown" data-toggle="dropdown">
+						<img src="img/avatar.jpg" alt="avatar" />
+						<span>Energia Admin</span>
+						<i class="icon-caret-down"></i>
+					</a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Profile</a></li>
+						<li><a href="login.html">Logout</a></li>
+					</ul>
+				</nav>
+
+			</header>
+			<!-- /Site header -->
+			
+			<!-- Main Content -->
+			<section class="main-content padding">
+				
+				<div class="row">
+					
+					<!-- Basic forms -->
+					<div class="col-lg-6">
+						<div class="module">
+							<div class="module-header"><h4>FORM ELEMENTS</h4></div>
+							<div class="module-content">
+
+								<form action="#" class="form-horizontal" />
+
+									<div class="form-group">
+										<label for="input1" class="col-lg-2 control-label">Email</label>
+										<div class="col-lg-10">
+											<input type="email" class="form-control" id="input1" placeholder="Type here..." />
+										</div>
+									</div>
+
+									<div class="form-group">
+										<label for="input2" class="col-lg-2 control-label">Password</label>
+										<div class="col-lg-10">
+											<input type="password" class="form-control" id="input2" />
+										</div>
+									</div>
+
+									<div class="form-group">
+										<label for="input3" class="col-lg-2 control-label">Textarea</label>
+										<div class="col-lg-10">
+											<textarea class="form-control" rows="3" id="input3"></textarea>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<div class="col-lg-offset-2 col-lg-10">
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" /> Checkbox 1
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" checked="" /> Checkbox 2
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" disabled="" /> Checkbox 3
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<label for="input4" class="col-lg-2 control-label">Disabled</label>
+										<div class="col-lg-10">
+											<input type="text" class="form-control" id="input4" disabled="" />
+											<span class="help-block">Lorem ipsum dolor sit amet</span>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<label for="select1" class="col-lg-2 control-label">Dropdown</label>
+										<div class="col-lg-10">
+											<select class="form-control" id="select1">
+												<option />Category 1
+												<option />Category 2
+												<option />Category 3
+											</select>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<div class="col-lg-offset-2 col-lg-10">
+											<label class="checkbox-inline">
+												<input type="checkbox" id="inlineCheckbox1" value="option1" /> 1
+											</label>
+											<label class="checkbox-inline">
+												<input type="checkbox" id="inlineCheckbox2" value="option2" /> 2
+											</label>
+											<label class="checkbox-inline">
+												<input type="checkbox" id="inlineCheckbox3" value="option3" /> 3
+											</label>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<label for="input4" class="col-lg-2 control-label">File</label>
+										<div class="col-lg-10">
+											<input type="file" />
+										</div>
+									</div>
+
+									<div class="form-group">
+										<div class="col-lg-offset-2 col-lg-10">
+											<button class="btn btn-primary">Save changes</button>
+											<button class="btn btn-default">Cancel</button>
+										</div>
+									</div>
+
+								</form>
+
+							</div>
+						</div>
+					</div>
+					<!-- /Basic forms -->
+
+					<!-- More elements -->
+					<div class="col-lg-6">
+						<div class="module">
+							<div class="module-header"><h4>ADVANCED FORMS</h4></div>
+							<div class="module-content">
+
+								<form action="#" />
+
+									<div class="input-avatar">
+										<div class="input-avatar-preview"><i class="icon-user"></i></div>
+										<!-- As href use the file input's ID that you wish to activate. Don't forget to use the class: show-file-dialog -->
+										<a class="btn btn-primary show-file-dialog" href="#fileAvatar">Select</a>
+										<br />
+										<button class="btn btn-danger">Delete</button>
+										<!-- Add ID to file input. Use hidden class to hide it from the website -->
+										<input id="fileAvatar" type="file" class="hidden" />
+									</div>
+
+									<div class="form-group has-success">
+										<label class="control-label" for="inputSuccess">Input with success</label>
+										<input type="text" class="form-control" id="inputSuccess" />
+									</div>
+
+									<div class="form-group has-warning">
+										<label class="control-label" for="inputWarning">Input with warning</label>
+										<input type="text" class="form-control" id="inputWarning" />
+									</div>
+
+									<div class="form-group has-error">
+										<label class="control-label" for="inputError">Input with error</label>
+										<input type="text" class="form-control" id="inputError" />
+									</div>
+
+									<div class="input-group">
+										<span class="input-group-addon"><i class="icon-star"></i></span>
+										<input type="text" class="form-control" placeholder="Username" />
+									</div>
+
+									<br />
+
+									<div class="input-group">
+										<input type="text" class="form-control" />
+										<span class="input-group-addon">Addon text</span>
+									</div>
+
+									<br />
+
+									<div class="input-group">
+										<span class="input-group-addon"><i class="icon-money"></i></span>
+										<input type="text" class="form-control" />
+										<span class="input-group-addon"><input type="checkbox" /></span>
+									</div>
+
+									<br />
+
+									<div class="input-group">
+										<input type="text" class="form-control" />
+										<span class="input-group-btn">
+											<button class="btn btn-grape" type="button"><i class="icon-search"></i> SEARCH</button>
+										</span>
+									</div>
+
+									<br />
+
+									<div class="input-group">
+										<input type="text" class="form-control" />
+										<div class="input-group-btn">
+											<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+											<ul class="dropdown-menu pull-right">
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Another action</a></li>
+												<li><a href="#">Something else here</a></li>
+												<li class="divider"></li>
+												<li><a href="#">Separated link</a></li>
+											</ul>
+										</div>
+									</div>
+
+								</form>
+
+							</div>
+						</div>
+					</div>
+					<!-- /More elements -->
+
+				</div>
+
+			</section>
+			<!-- /Main Content -->
+
+		</div>
+		<!-- /Content area -->
+
+	</div>
+	
+	<!-- jQuery Framework -->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<!-- Raphael Framework -->
+	<script src="js/raphael.min.js"></script>
+	<!-- Morris.js Graphs -->
+	<script src="js/morris.min.js"></script>
+	<!-- Small Graphs -->
+	<script src="js/sparklines.min.js"></script>
+	<!-- Knobs -->
+	<script src="js/knob.js"></script>
+	<!-- Bootstrap Javascript -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Full calendar -->
+	<script src="js/fullcalendar.min.js"></script>
+	<!-- Kato Javascript -->
+	<script src="js/theme.js"></script>
+</body>
+</html>
