@@ -182,7 +182,7 @@
 					<!-- Chart 1 -->
 					<div class="col-lg-6">
 						<div class="module">
-							<div class="module-header"><h4>HOURLY CONSUMPTION (in kWh)</h4></div>
+							<div class="module-header"><h4>HOURLY CONSUMPTION</h4></div>
 							<div class="module-content demo-buttons">
 								<div id="line-chart"></div>
 							</div>
@@ -193,7 +193,7 @@
 					<!-- Chart 3 -->
 					<div class="col-lg-6">
 						<div class="module">
-							<div class="module-header"><h4>ROOM WISE BREAKUP (in kWh)</h4></div>
+							<div class="module-header"><h4>ROOM WISE BREAKUP</h4></div>
 							<div class="module-content demo-buttons">
 								<div id="donut-chart"></div>
 							</div>
