@@ -98,8 +98,8 @@
 					<div class="col-lg-2">
 
 						<div class="box-module">
-							<small>Current growth</small>
-							<h3 class="stats-positive"><i class="icon-caret-up"></i> 32.000 <span>+0.3</span></h3>
+							<small>Current Percentage Use</small>
+							<h3 class="stats-positive"><i class="icon-caret-up"></i> 32% <span>+5%</span></h3>
 						</div>
 
 					</div>
@@ -107,8 +107,8 @@
 					<div class="col-lg-2">
 
 						<div class="box-module module-red">
-							<small>Monthly stats</small>
-							<h3 class="stats-negative"><i class="icon-caret-down"></i> $500 <span>-14%</span></h3>
+							<small>Energy Saved Today</small>
+							<h3 class="stats-negative"><i class="icon-caret-down"></i> 15% <span>-4%</span></h3>
 						</div>
 
 					</div>
@@ -116,8 +116,8 @@
 					<div class="col-lg-2">
 
 						<div class="box-module box-module-fill">
-							<small>Current position</small>
-							<h3 class="stats-stagnant"><i class="icon-caret-right"></i> 1300 <span>+100</span></h3>
+							<small>Current Fare</small>
+							<h3 class="stats-stagnant"><i class="icon-caret-right"></i> $15 <span>kWh</span></h3>
 						</div>
 
 					</div>
@@ -125,8 +125,8 @@
 					<div class="col-lg-2">
 
 						<div class="box-module module-green">
-							<small>Overdue orders</small>
-							<h3><i class="icon-usd"></i> 2 <span>2013/05/22</span></h3>
+							<small>Days for Recharge</small>
+							<h3>21 <span>remaining</span></h3>
 						</div>
 
 					</div>
@@ -134,9 +134,9 @@
 					<div class="col-lg-2">
 
 						<div class="box-module module-orange">
-							<small>Small graph</small>
+							<small>Mothly Saving</small>
 							<span class="mini-graph sparkline-bar">65,63,43,55,47</span>
-							<h3 class="stats-positive"><i class="icon-caret-up"></i> 13.400</h3>
+							<h3 class="stats-positive"><i class="icon-caret-up"></i> 15%</h3>
 						</div>
 
 					</div>
@@ -144,8 +144,8 @@
 					<div class="col-lg-2">
 
 						<div class="box-module">
-							<small>Numbers game</small>
-							<h3 class="stats-negative"><i class="icon-chevron-down"></i> 32 <span>-2</span></h3>
+							<small>Saved from Yesterday</small>
+							<h3 class="stats-negative"><i class="icon-chevron-down"></i> 32% <span>-2</span></h3>
 						</div>
 
 					</div>
@@ -264,7 +264,7 @@
 	labels: ['SUB-METER 1', 'SUB-METER 2', 'SUB-METER-3'],
 	behaveLikeLine: true,
 	fillOpacity: 1,
-	lineColors: ['#ffce55', '#379ca8', '#ee6969']
+	lineColors: ['#ee6969', '#379ca8','#ffce55']
 });
 		new Morris.Line({
 			element: 'line-chart',
@@ -308,14 +308,14 @@
 		new Morris.Donut({
 			element: 'donut-chart',
 			data: [
-				{ label: 'Master Bedroom', value: 12 },
-				{ label: 'Living Room', value: 8 },
-				{ label: 'Kitchen', value: 8 },
+				{ label: 'Meeting Room', value: 12 },
+				{ label: 'Conference Hall', value: 8 },
+				{ label: 'Reception', value: 8 },
 				{ label: 'Library', value: 5 },
-				{ label: 'Dining Room', value: 9 },
-				{ label: 'Kids Room', value: 4 },
-				{ label: 'Study', value: 5 },
-				{ label: 'Garage', value: 18 }
+				{ label: 'Cafeteria', value: 9 },
+				{ label: 'Cabin 1', value: 4 },
+				{ label: 'Cabin 2', value: 5 },
+				{ label: 'Works Space', value: 18 }
 			],
 			colors: ['#6eb8d3','#6dba89','#e68a72','#d54a51','#ffd36d','#ec87c1','#a77a94','#247882']
 		});

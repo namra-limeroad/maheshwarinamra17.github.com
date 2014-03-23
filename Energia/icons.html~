@@ -100,42 +100,43 @@
 							<div class="module-header"><h4>PRIORITY INBOX</h4></div>
 							<div class="module-content">
 								<ul class="list-tasks">
-									<li class="task-header task-overdue">OVERDUE</li>
+									<li class="task-header task-overdue">URGENT</li>
 									<li class="task-tag-red">
-										<span class="sparkline-pie">4,6,6</span>
+										<span class="sparkline-pie">7,2</span>
 										<small>July 16, 2013</small>
-										<a href="#">Reinstall OS</a>
+										<a href="#">You have reached 75% of your target</a>
 										<i class="icon-code icon-2x"></i>
 									</li>
-									<li class="task-tag-yellow">
-										<span class="sparkline-pie">5,1</span>
-										<small>July 14, 2013</small>
-										<a href="#">Install new hardware</a>
+									<li class="task-tag-red">
+										<span class="sparkline-pie">5,5</span>
+										<small>July 16, 2013, 3:16 PM</small>
+										<a href="#">Sub-meter 2 is at 50%</a>
 										<i class="icon-code icon-2x"></i>
 									</li>
-									<li>
-										<span class="sparkline-pie">50, 50</span>
-										<small>July 14, 2013</small>
-										<a href="#">Do unit testing</a>
+									<li class="task-tag-red">
+										<span class="sparkline-pie">4,6</span>
+										<small>July 16, 2013, 5:13 PM</small>
+										<a href="#">Possible wastage detected in Living Room</a>
+										<i class="icon-code icon-2x"></i>
 									</li>
-									<li class="task-header">TOMORROW</li>
+									<li class="task-header">MODERATE</li>
 									<li class="task-tag-green">
 										<span class="sparkline-pie">100, 100, 40</span>
 										<small>July 12, 2013</small>
-										<a href="#">Check server status</a>
+										<a href="#">Check yesterday's Total Usage</a>
 										<i class="icon-folder-close icon-2x"></i>
 									</li>
 									<li>
 										<span class="sparkline-pie">4,6</span>
 										<small>July 11, 2013</small>
-										<a href="#">Delete all nudes from fb</a>
+										<a href="#">Check </a>
 										<i class="icon-code icon-2x"></i>
 									</li>
-									<li class="task-header">FINISHED</li>
+									<li class="task-header">RESOLVED</li>
 									<li>
 										<span><i class="icon-check-sign"></i></span>
 										<small>July 09, 2013</small>
-										<a href="#">Be productive</a>
+										<a href="#">Cooling in Workspace is at 60%</a>
 										<i class="icon-lock icon-2x"></i>
 									</li>
 								</ul>
@@ -156,21 +157,27 @@
 									<div class="activity-feed-items">
 										<div class="activity-feed-item">
 											<span>.</span>
-											<h4><i class="icon-comment"></i> New comment</h4>
-											<p>Suspendisse vehicula sollicitudin felis ut rutrum. Phasellus sagittis est sit amet eros suscipit lobortis. Donec sed facilisis turpis, vel blandit sapien</p>
+											<h4><i class="icon-comment"></i> Kshitij Agrawal</h4>
+											<p>Saved $236 this quater.</p>
 											<small>administrator &middot; 25 seconds ago</small>
 										</div>
 										<div class="activity-feed-item">
 											<span>.</span>
-											<h4><i class="icon-picture"></i> Added 12 new pictures to gallery</h4>
-											<p>Nullam ac lectus massa. Sed ligula tellus, suscipit ac nibh non, tristique fringilla dui. Aenean semper sed dui non sagittis. Nunc nec aliquet augue, quis ultrices libero. Donec sagittis mauris non nisl placerat, a tristique urna fringilla. Nulla vitae aliquam felis. Maecenas et accumsan odio. Donec non varius elit, nec accumsan mauris. Aenean ac sollicitudin sapien. Sed ac turpis nisi. Curabitur facilisis molestie neque, et elementum eros interdum congue. Morbi eu ultrices lorem, eu auctor lorem. Integer odio eros, facilisis quis tincidunt non, facilisis sed arcu. </p>
-											<small>john doe &middot; 3 minutes ago</small>
+											<h4><i class="icon-picture"></i> Piyush Poddar</h4>
+											<p>Updated system to ECHELON and saved 105 kWh this month.</p>
+											<small>administartor &middot; 3 minutes ago</small>
 										</div>
 										<div class="activity-feed-item">
 											<span>.</span>
-											<h4>New job listing</h4>
-											<p>Ut in euismod quam, quis pharetra tellus. Nulla pulvinar metus nec ultrices ultricies.</p>
-											<small>mick soften &middot; 12 minutes ago</small>
+											<h4>Namra Maheshwari</h4>
+											<p>Saved 20% on cooling yesterday</p>
+											<small>monitor&middot; 12 minutes ago</small>
+										</div>
+										<div class="activity-feed-item">
+											<span>.</span>
+											<h4>Lakshya Khublani</h4>
+											<p>Used 12% more than average today</p>
+											<small>monitor&middot; 12 minutes ago</small>
 										</div>
 									</div>
 								</div>
@@ -194,13 +201,25 @@
 									<li>
 										<span><i class="icon-check-sign"></i></span>
 										<small>July 09, 2013</small>
-										<a href="#">Be productive</a>
+										<a href="#">Saved $248 from start</a>
 										<i class="icon-lock icon-2x"></i>
 									</li>
 									<li>
 										<span><i class="icon-check-sign"></i></span>
-										<small>July 09, 2013</small>
-										<a href="#">Be productive</a>
+										<small>July 10, 2013</small>
+										<a href="#">Saved 1005 kWh from start</a>
+										<i class="icon-lock icon-2x"></i>
+									</li>
+									<li>
+										<span><i class="icon-check-sign"></i></span>
+										<small>July 14, 2013</small>
+										<a href="#">Saved $37 this month</a>
+										<i class="icon-lock icon-2x"></i>
+									</li>
+									<li>
+										<span><i class="icon-remove"></i></span>
+										<small>July 15, 2013</small>
+										<a href="#">Used 15% more than average</a>
 										<i class="icon-lock icon-2x"></i>
 									</li>
 								</ul>
@@ -213,7 +232,7 @@
 							<div class="col-lg-7">
 								
 								<div class="module module-purple">
-									<div class="module-header"><h4>USER LIST</h4></div>
+									<div class="module-header"><h4>PERSONNEL LIST</h4></div>
 									<div class="module-content">
 										<ul class="user-list">
 											<li>
@@ -229,6 +248,11 @@
 											<li>
 												<img src="img/placeholder4.jpg" alt="Avatar" />
 												<a href="#">Piyush Poddar <small>Administrator</small></a>
+												<i class="icon-circle status-online"></i>
+											</li>
+											<li>
+												<img src="img/placeholder4.jpg" alt="Avatar" />
+												<a href="#">Lakhya Khublani<small>Administrator</small></a>
 												<i class="icon-circle status-online"></i>
 											</li>
 

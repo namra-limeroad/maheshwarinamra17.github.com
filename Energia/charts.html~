@@ -242,7 +242,7 @@
 			],
 			xkey: 'year',
 			ykeys: ['x'],
-			labels: ['Daily'],
+			labels: ['Visits'],
 			barColors: ['#e68a72']
 		});
 
