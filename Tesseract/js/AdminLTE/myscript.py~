@@ -1,0 +1,42 @@
+import os
+def main():
+	dashboard = open('dashboard.js','r')
+	dash_lines = dashboard.readlines()
+	dashboard.close()
+	for line in dash_lines:
+		if "First graph" in line:
+			index = dash_lines.index(line)     #got the line where Morris.bar starts (YOU NEED TO WRITE FIRST GRAPH IN dashboard.js)
+	
+	index = index+5
+	bar_data = open('bar_data','r')
+	bar_lines = bar_data.readlines()
+	for line in bar_lines:
+		dash_lines.insert(index,line)
+		index += 1
+
+	# END FOR BAR CHART DATA	
+	
+	# START FOR AREA DATA
+	for line in dash_lines:
+		if "Second graph" in line:                #got the line where Morris.area starts (YOU NEED TO WRITE SECOND GRAPH IN dashboard.js)
+			index = dash_lines.index(line)
+
+	index = index+5
+	area_data = open('area_data','r')
+	area_lines = area_data.readlines()
+	for line in area_lines:
+		dash_lines.insert(index,line)
+		index += 1
+
+		
+	# NOW WRITING THE NEW DATA TO dashboard.js    YAYAYA :')
+	os.system("rm dashboard.js")	
+	dashboard = open('dashboard.js','w')
+	for line in dash_lines:
+		dashboard.write(line)
+        
+
+if __name__ == "__main__":
+	main()
+
+

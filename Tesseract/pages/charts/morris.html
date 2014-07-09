@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tesseract </title>
+        <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+        <!-- bootstrap 3.0.2 -->
+        <link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- font Awesome -->
+        <link href="../../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <!-- Ionicons -->
+        <link href="../../css/ionicons.min.css" rel="stylesheet" type="text/css" />
+        <!-- Morris charts -->
+        <link href="../../css/morris/morris.css" rel="stylesheet" type="text/css" />
+        <!-- Theme style -->
+        <link href="../../css/AdminLTE.css" rel="stylesheet" type="text/css" />
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    </head>
+   <body class="skin-blue">
+        <!-- header logo: style can be found in header.less -->
+        <header class="header">
+            <a href="index.html" class="logo">
+                <!-- Add the class icon to your logo image or logo icon to add the margining -->
+                Tesseract 
+            </a>
+            <!-- Header Navbar: style can be found in header.less -->
+            <nav class="navbar navbar-static-top" role="navigation">
+                <!-- Sidebar toggle button-->
+                <a href="#" class="navbar-btn sidebar-toggle" data-toggle="offcanvas" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <div class="navbar-right">
+                    <ul class="nav navbar-nav">
+                        
+                        <!-- Notifications: style can be found in dropdown.less -->
+                        <li class="dropdown notifications-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                               <i class="fa fa-envelope"></i>
+                                <span class="label label-warning">5</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="header">You have 4 notifications</li>
+                                <li>
+                      <!-- inner menu: contains the actual data -->
+                                    <ul class="menu">
+                                        <li>
+                                            <a href="#">
+                                                <i class="ion ion-ios7-people info"></i> Saved 15% from yesterday
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-warning danger"></i> +100 for Energy Star
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-users warning"></i> EP increased by one
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <i class="ion ion-ios7-cart success"></i>25% more usage from last week
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="ion ion-ios7-person danger"></i> You changed your username
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="footer"><a href="#">View all</a></li>
+                            </ul>
+                        </li>
+                        
+                        <!-- User Account: style can be found in dropdown.less -->
+                        <li class="dropdown user user-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="glyphicon glyphicon-user"></i>
+                                <span>Xander Cage <i class="caret"></i></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <!-- User image -->
+                                <li class="user-header bg-light-blue">
+                                    <img src="../../img/avatar04.png" class="img-circle" alt="User Image" />
+                                    <p>
+                                        Xander Cage
+                                        <small>Admin</small>
+                                    </p>
+                                </li>
+                                <!-- Menu Body -->
+                                
+                                <!-- Menu Footer-->
+                                <li class="user-footer">
+                                    <div class="pull-left">
+                                        <a href="#" class="btn btn-default btn-flat">Settings</a>
+                                    </div>
+                                    <div class="pull-right">
+                                        <a href="../examples/login.html" class="btn btn-default btn-flat">Sign out</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="wrapper row-offcanvas row-offcanvas-left">
+            <!-- Left side column. contains the logo and sidebar -->
+            <aside class="left-side sidebar-offcanvas">
+                <!-- sidebar: style can be found in sidebar.less -->
+                <section class="sidebar">
+                    <!-- Sidebar user panel -->
+                    <div class="user-panel">
+                        <div class="pull-left image">
+                            <img src="../../img/avatar04.png" class="img-circle" alt="User Image" />
+                        </div>
+                        <div class="pull-left info">
+                            <p>Hello, Xander</p>
+
+                            <a href="#"><i class="fa fa-circle text-success"></i> Admin</a>
+                        </div>
+                    </div>
+                    
+                   
+                    <!-- sidebar menu: : style can be found in sidebar.less -->
+                    <ul class="sidebar-menu">
+                        <li class="active">
+ <ul class="sidebar-menu">
+                        <li class="active">
+                            <a href="../../index.html">
+                                <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../charts/morris.html">
+                                <i class="fa fa-th"></i> <span>Notifications</span> <small class="badge pull-right bg-green">12</small>
+                            </a>
+                        </li>
+                        <li class="treeview">
+                            <a href="../forms/settings.html">
+                                <i class="fa fa-edit"></i> <span>Settings</span>
+                            </a>
+                            
+                        </li>
+                        
+                    </ul>                </section>
+                <!-- /.sidebar -->
+            </aside>
+
+            <!-- Right side column. Contains the navbar and content of the page -->
+            <aside class="right-side">
+                <!-- Content Header (Page header) -->
+                <section class="content-header">
+                    <h1>
+                        Notifications
+                    </h1>
+                    <ol class="breadcrumb">
+                        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+                        <li class="active">Notifications</li>
+                    </ol>
+                </section>
+
+                <!-- Main content -->
+                <section class="content">
+
+                    <div class="row">
+                        
+                        <div class="col-md-6">
+							    <div class="box box-success">
+                                <div class="box-header">
+                                    <h3 class="box-title"><i class="fa fa-comments-o"></i> Notifications</h3>
+                                    <div class="box-tools pull-right" data-toggle="tooltip" title="Status">
+                                       
+                                    </div>
+                                </div>
+                                <div class="box-body chat" id="chat-box">
+                                    <!-- chat item -->
+                                    <div class="item">
+                                        <img src="../../img/msg.png" alt="user image" class="online"/>
+                                        <p class="message">
+                                            <a href="#" class="name">
+                                                <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 2:15</small>
+						Tesseract Team
+                                            </a>
+                                            Congratulations on joining Tesseract
+                                        </p>
+                                        
+                                    </div><!-- /.item -->
+                                    <!-- chat item -->
+                                    <div class="item">
+                                        <img src="../../img/msg.png" alt="user image" class="offline"/>
+                                        <p class="message">
+                                            <a href="#" class="name">
+                                                <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 5:15</small>
+						Tesseract
+                                            </a>
+                                         Saved 15% from yesterday
+                                        </p>
+                                    </div><!-- /.item -->
+                                    <!-- chat item -->
+                                    <div class="item">
+                                        <img src="../../img/msg.png" alt="user image" class="offline"/>
+                                        <p class="message">
+                                            <a href="#" class="name">
+                                                <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 5:30</small>
+						Tesseract
+                                            </a>
+                                            25% more usage from yesterday
+                                        </p>
+                                    </div><!-- /.item -->
+									
+                                </div><!-- /.chat -->
+                                
+                            </div><!-- /.box (chat box) -->
+							
+                            <!-- LINE CHART -->
+                            <div class="box box-info">
+                                <div class="box-header">
+                                    <h3 class="box-title">Device Analytics</h3>
+                                </div>
+								
+                                        
+                                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+											<a href="#">
+                                            <img src="../../img/1.png" alt="Plug" height="160"/>
+											<div class="knob-label">Cell Phone</div>
+											</a>
+                                        </div><!-- ./col -->
+                                        <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                                           <a href="#">
+                                            <img src="../../img/2.png" alt="Plug" height="160"/>
+											<div class="knob-label">Device 1</div>
+											</a>
+                                        </div><!-- ./col -->
+										<div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                                            <a href="#">
+                                            <img src="../../img/3.png" alt="Plug" height="160"/>
+											<div class="knob-label">Device 2</div>
+											</a>
+                                        </div><!-- ./col -->
+										<div class="col-md-3 col-sm-6 col-xs-6 text-center">
+                                            <a href="#">
+                                            <img src="../../img/4.png" alt="Plug" height="160"/>
+											<div class="knob-label">Device 3</div>
+											</a>
+                                        </div><!-- ./col -->
+                                 
+                                <div class="box-body chart-responsive">
+                                    <div class="chart" id="line-chart" style="height: 200px;"></div>
+                                </div><!-- /.box-body -->
+                            </div><!-- /.box -->
+
+                           
+
+                        </div><!-- /.col (RIGHT) -->
+						<div class="col-md-6">
+                             <!-- Box (with bar chart) -->
+                            <div class="box box-danger" id="loading-example">
+                                <div class="box-header">
+                                    <!-- tools box -->
+                                    <div class="pull-right box-tools">
+                                       
+                                    </div><!-- /. tools -->
+                                    <i class="fa fa-cloud"></i>
+
+                                    <h3 class="box-title">Activity Feed</h3>
+                                </div><!-- /.box-header -->
+                                <div class="box-body no-padding">
+                                    <div class="row">
+                 <div class="col-md-12">
+                            <!-- The time line -->
+                            <ul class="timeline">
+                                <!-- timeline time label -->
+                                <li class="time-label">
+                                    <span class="bg-red">
+                                        31 May. 2014
+                                    </span>
+                                </li>
+                                <!-- /.timeline-label -->
+                                <!-- timeline item -->
+                                <li>
+                                    <i class="fa fa-envelope bg-blue"></i>
+                                    <div class="timeline-item">
+                                        <span class="time"><i class="fa fa-clock-o"></i> 12:05</span>
+                                        <h3 class="timeline-header"><a href="#">Support Team</a> sent you and email</h3>
+                                        <div class="timeline-body">
+                                            Thanks for joining Tesseract. This is an automatic mail to confirm that your are online
+                                        </div>
+                                       
+                                    </div>
+                                </li>
+                                <!-- END timeline item -->
+                                <!-- timeline item -->
+                                <li>
+                                    <i class="fa fa-user bg-aqua"></i>
+                                    <div class="timeline-item">
+                                        <span class="time"><i class="fa fa-clock-o"></i> 5 mins ago</span>
+                                        <h3 class="timeline-header no-border"><a href="#">Tesseract Star</a> (+100)</h3>
+                                    </div>
+                                </li>
+                                <!-- END timeline item -->
+                                <!-- timeline item -->
+                                <li>
+                                    <i class="fa fa-comments bg-yellow"></i>
+                                    <div class="timeline-item">
+                                        <span class="time"><i class="fa fa-clock-o"></i> 27 mins ago</span>
+                                        <h3 class="timeline-header"><a href="#">Saviour</a> Achievement Unlocked </h3>
+                                        <div class="timeline-body">
+  						Saved 15% in a Week
+                                        </div>
+                                       
+                                    </div>
+                                </li>
+                                <!-- END timeline item -->
+                                <!-- timeline time label -->
+                                <li class="time-label">
+                                    <span class="bg-green">
+                                        1 June. 2014
+                                    </span>
+                                </li>
+                                <!-- /.timeline-label -->
+                               <!-- timeline item -->
+                                <li>
+                                    <i class="fa fa-envelope bg-blue"></i>
+                                    <div class="timeline-item">
+                                        <span class="time"><i class="fa fa-clock-o"></i> 12:05</span>
+                                        <h3 class="timeline-header"><a href="#">Support Team</a> sent you and email</h3>
+                                        <div class="timeline-body">
+                                            Hi there,
+					    We hope that we are upto the mark on our services and to make it sure we will send a technician to your home at 5 PM. So make sure somebody is home to attend him. 
+                                        </div>
+                                       
+                                    </div>
+                                </li>
+                                <!-- END timeline item -->
+                                <!-- timeline item -->
+                                <li>
+                                    <i class="fa fa-user bg-aqua"></i>
+                                    <div class="timeline-item">
+                                        <span class="time"><i class="fa fa-clock-o"></i> 5 mins ago</span>
+                                        <h3 class="timeline-header no-border"><a href="#">Green Leaf</a> Achievement Unlocked</h3>
+					<div class="timeline-body">
+                                           By decreasing your daily consumption by 15%
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- END timeline item -->
+                                <!-- timeline item -->
+                                <li>
+                                    <i class="fa fa-comments bg-yellow"></i>
+                                    <div class="timeline-item">
+                                        <span class="time"><i class="fa fa-clock-o"></i> 27 mins ago</span>
+                                        <h3 class="timeline-header"><a href="#">Energy Star</a> Achievement Unlocked</h3>
+                                        <div class="timeline-body">
+                                                                                 By decreasing your weekly consumption by 15%
+                                        </div>
+                                       
+                                    </div>
+                                </li>
+                                <!-- END timeline item -->
+                                
+                            </ul>
+                        </div><!-- /.col -->
+                                    </div><!-- /.row - inside box -->
+                                </div><!-- /.box-body -->
+                                
+                            </div><!-- /.box -->        
+                            
+                            
+                        </div><!-- /.col (LEFT) -->
+                    </div><!-- /.row -->
+
+                </section><!-- /.content -->
+            </aside><!-- /.right-side -->
+        </div><!-- ./wrapper -->
+
+
+        <!-- jQuery 2.0.2 -->
+        <script src="../../js/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="../../js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- Morris.js charts -->
+        <script src="../../js/raphael-min.js"></script>
+        <script src="../../js/plugins/morris/morris.min.js" type="text/javascript"></script>
+
+        <!-- AdminLTE App -->
+        <script src="../../js/AdminLTE/app.js" type="text/javascript"></script>
+        <!-- AdminLTE for demo purposes -->
+        <script src="js/AdminLTE/demo.js" type="text/javascript"></script>
+        <!-- page script -->
+        <script type="text/javascript">
+            $(function() {
+                "use strict";
+
+               
+
+                // LINE CHART
+                var line = new Morris.Line({
+                    element: 'line-chart',
+                    resize: true,
+                    data: [
+                        {y: '2011 Q1', item1: 2666},
+                        {y: '2011 Q2', item1: 2778},
+                        {y: '2011 Q3', item1: 4912},
+                        {y: '2011 Q4', item1: 3767},
+                        {y: '2012 Q1', item1: 6810},
+                        {y: '2012 Q2', item1: 5670},
+                        {y: '2012 Q3', item1: 4820},
+                        {y: '2012 Q4', item1: 15073},
+                        {y: '2013 Q1', item1: 10687},
+                        {y: '2013 Q2', item1: 8432}
+                    ],
+                    xkey: 'y',
+                    ykeys: ['item1'],
+                    labels: ['Item 1'],
+                    lineColors: ['#3c8dbc'],
+                    hideHover: 'auto'
+                });
+
+                
+            });
+        </script>
+
+    </body>
+</html>
